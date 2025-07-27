@@ -1,0 +1,126 @@
+{
+  "metadata": {
+    "input_documents": [
+      "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "SE unit-III  updated.pdf"
+    ],
+    "persona": "BTech AIML Student",
+    "job_to_be_done": "Study for an exam on AI agents and environments",
+    "timestamp": "2025-07-20 16:56:21"
+  },
+  "extracted_sections": [
+    {
+      "document": "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "page_number": 11,
+      "section_title": "Let us now learn about each of these phases in detail. ",
+      "importance_rank": 1
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 31,
+      "section_title": " In Artificial Intelligence, Search techniques are universa",
+      "importance_rank": 2
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 31,
+      "section_title": "algorithms to solve a specific problem and provide the best ",
+      "importance_rank": 3
+    },
+    {
+      "document": "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "page_number": 29,
+      "section_title": "DSDM is an Agile model that provides an iterative and increm",
+      "importance_rank": 4
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 6,
+      "section_title": " ",
+      "importance_rank": 5
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 8,
+      "section_title": "agents sense the environment through sensors and act on thei",
+      "importance_rank": 6
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 21,
+      "section_title": "intelligence.  ",
+      "importance_rank": 7
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 9,
+      "section_title": "way to maximize its performance measure with all possible ac",
+      "importance_rank": 8
+    },
+    {
+      "document": "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "page_number": 30,
+      "section_title": "constraints related to the applying to be designed then asse",
+      "importance_rank": 9
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "page_number": 14,
+      "section_title": " ",
+      "importance_rank": 10
+    }
+  ],
+  "sub_section_analysis": [
+    {
+      "document": "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "refined_text": "Let us now learn about each of these phases in detail. \n \n1. Feasibility Study \nThe main goal of this phase is to determine whether it would be financially and technically \nfeasible to develop the software.The feasibility study involves understanding the problem and",
+      "page_number": 11
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": " In Artificial Intelligence, Search techniques are universal problem-solving methods.  \n Rational agents or Problem-solving agents in AI mostly used these search strategies or",
+      "page_number": 31
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": "algorithms to solve a specific problem and provide the best result.  \n Problem-solving agents are the goal-based agents and use atomic representation.",
+      "page_number": 31
+    },
+    {
+      "document": "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "refined_text": "DSDM is an Agile model that provides an iterative and incremental framework for software \ndevelopment. It emphasizes active user involvement throughout the project and places a strong \nemphasis on delivering business value. DSDM promotes collaboration, prototyping, and \ncontinuous feedback from stakeholders. It includes phases like feasibility study, business study, \nfunctional model iteration, design and build iteration, and implementation.",
+      "page_number": 29
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": " \nNarrow AI is a type of AI which is able to perform a dedicated task with intelligence.The \nmost common and currently available AI is Narrow AI in the world of Artificial \nIntelligence. \n \nNarrow AI cannot perform beyond its field or limitations, as it is only trained for one \nspecific task. Hence it is also termed as weak AI. Narrow AI can fail in unpredictable \nways if it goes beyond its limits. \n \nApple Siri's a good example of Narrow AI, but it operates with a limited pre-defined \nrange of functions. \n \nIBM's Watson supercomputer also comes under Narrow AI, as it uses an Expert system \napproach combined with Machine learning and natural language processing. \n \nSome Examples of Narrow AI are playing chess, purchasing suggestions on e-commerce \nsite, self-driving cars, speech recognition, and image recognition.",
+      "page_number": 6
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": "agents sense the environment through sensors and act on their environment through \nactuators. An AI agent can have mental properties such as knowledge, belief, intention, \netc.",
+      "page_number": 8
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": "intelligence.  \n Knowledge plays an important role in demonstrating intelligent behavior in AI agents.  \n An agent is only able to accurately act on some input when he has some knowledge or",
+      "page_number": 21
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": "way to maximize its performance measure with all possible actions. \n A rational agent is said to perform the right things. AI is about creating rational agents to",
+      "page_number": 9
+    },
+    {
+      "document": "SE UNIT-1 SAQ'S & LAQ'S.pdf",
+      "refined_text": "constraints related to the applying to be designed then assesses whether or not \nthe application could be a viable candidate for the DSDM method. \n2. Business Study: It establishes the use and knowledge necessities that may",
+      "page_number": 30
+    },
+    {
+      "document": "AIML  UNIT1 LECTURE NOTES (1).pdf",
+      "refined_text": " \nThe Simple reflex agents are the simplest agents. These agents take decisions on the basis \nof the current percepts and ignore the rest of the percept history. \n \nThese agents only succeed in the fully observable environment. \n \nThe Simple reflex agent does not consider any part of percepts history during their \ndecision and action process. \n \nThe Simple reflex agent works on Condition-action rule, which means it maps the current \nstate to action. Such as a Room Cleaner agent, it works only if there is dirt in the room. \n \nProblems for the simple reflex agent design approach:",
+      "page_number": 14
+    }
+  ]
+}

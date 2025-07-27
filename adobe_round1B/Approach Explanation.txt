@@ -1,0 +1,53 @@
+1.Approach Explanation
+
+1.1 Objective
+
+The aim of this project is to create an AI assistant which can extract and rank the most important information from a collection of documents for a user's persona and job-to-be-done. The system must be generic and able to work in a variety of domains like research, education, or business analysis.
+
+
+2. Methodology
+
+ 1. Input Specification
+
+The system takes:
+. A bunch of 3–10 PDF files stored in the /input directory.
+. A persona_job.json file with two fields: "persona" and "job_to_be_done".
+
+This is what type of individual is engaging with the system and what they want to do — which forms the basis for relevance extraction.
+
+
+ 2. Text Extraction and Chunking
+
+With PyMuPDF (fitz), every PDF is read page by page. Each page is split into text blocks, and text chunks are filtered by a minimum word requirement to minimize noise. Page number and file name metadata are saved along with every chunk.
+
+
+ 3. Relevance Ranking Using TF-IDF
+
+To rank relevant content:
+. The job description + persona is used as a search query.
+. The text blocks extracted from all the documents constitute a corpus.
+. The semantic similarity of the user goal and every text chunk is computed by using cosine similarity from TF-IDF (Term Frequency-Inverse Document Frequency) from scikit-learn.
+
+The top N most suitable sections are chosen and ordered.
+
+
+ 4. Output Generation
+
+The output is organized as a JSON file with:
+. Input document metadata, persona, and processing timestamp.
+. A ranked list of the extracted sections with document name, page number, section title, and rank of importance.
+. A sub-section analysis with the complete corresponding content and page number for every extracted section.
+
+
+
+ 4.1 Constraints Managed
+
+.  Model size ≤ 1GB: The system employs resource-light libraries (TF-IDF) that don't take much.
+. Execution Time ≤ 60 seconds for 3–5 documents: In-memory computation and optimal vectorization are used to optimize processing and        scoring.
+.  Offline Execution: No internet needed. Everything is processed locally.
+.  CPU Only: No GPU acceleration.
+
+
+5. Conclusion
+
+This is a modular, quick, and general-purpose solution. It enables any persona — whether a student, researcher, or analyst  to get a tailored document summary that suits their specific job-to-be-done. Improvements in the future can involve the use of sentence embeddings or local LLMs for enhanced context understanding and more profound insights.
